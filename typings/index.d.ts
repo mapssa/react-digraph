@@ -14,7 +14,7 @@
   limitations under the License.
 */
 
-declare module 'react-digraph' {
+declare module '@mapssa/react-digraph' {
   export type INode = {
     title: string;
     x?: number | null;
@@ -98,6 +98,7 @@ declare module 'react-digraph' {
 
   export type IGraphViewProps = {
     backgroundFillId?: string;
+    disableBackspace: boolean;
     edges: any[];
     edgeArrowSize?: number;
     edgeHandleSize?: number;
